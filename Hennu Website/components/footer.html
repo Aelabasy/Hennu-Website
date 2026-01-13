@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Pushy Exotic Dog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}pre {  white-space: normal;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: "Source Sans 3";
+        font-size: 1rem;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: undefined;
+        text-transform: undefined;
+        letter-spacing: 0.02em;
+        line-height: 1.6;
+        color: var(--color-on-surface);
+        background: var(--color-surface);
+
+        fill: var(--color-on-surface);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="../style.css" />
+    <div>
+      <link href="./footer.css" rel="stylesheet" />
+      <div class="footer-container1">
+        <footer class="footer-root">
+          <div aria-hidden="true" class="footer-overlay-shapes">
+            <div class="footer-shape footer-shape-1"></div>
+            <div class="footer-shape footer-shape-2"></div>
+          </div>
+          <div class="footer-container">
+            <div class="footer-main-grid">
+              <div class="footer-brand-column">
+                <div class="footer-logo-wrapper">
+                  <div class="footer-logo-icon">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="32"
+                      height="32"
+                      viewBox="0 0 24 24"
+                    >
+                      <g
+                        fill="none"
+                        stroke="var(--color-secondary)"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="1.5"
+                      >
+                        <path
+                          d="M12 10.189V14m0-12v3m7 8V7a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v6"
+                        ></path>
+                        <path
+                          d="M19.38 20A11.6 11.6 0 0 0 21 14l-8.188-3.639a2 2 0 0 0-1.624 0L3 14a11.6 11.6 0 0 0 2.81 7.76"
+                        ></path>
+                        <path
+                          d="M2 21c.6.5 1.2 1 2.5 1c2.5 0 2.5-2 5-2c1.3 0 1.9.5 2.5 1s1.2 1 2.5 1c2.5 0 2.5-2 5-2c1.3 0 1.9.5 2.5 1"
+                        ></path>
+                      </g>
+                    </svg>
+                  </div>
+                  <span class="footer-brand-name">HENNU</span>
+                </div>
+                <p class="footer-brand-description section-content">
+                  Inspired by the ancient Pharaonic vessels that mastered the
+                  Nile, Hennu bridges the gap between Malaysian palm oil
+                  excellence and global markets from our hub in Dubai.
+                </p>
+                <div class="footer-social-row">
+                  <a href="#">
+                    <div aria-label="LinkedIn" class="footer-social-link">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path
+                          d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+                        ></path>
+                        <rect x="2" y="9" width="4" height="12"></rect>
+                        <circle cx="4" cy="4" r="2"></circle>
+                      </svg>
+                    </div>
+                  </a>
+                  <a href="#">
+                    <div aria-label="Twitter" class="footer-social-link">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path
+                          d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"
+                        ></path>
+                      </svg>
+                    </div>
+                  </a>
+                  <a href="#">
+                    <div aria-label="Instagram" class="footer-social-link">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <rect
+                          x="2"
+                          y="2"
+                          width="20"
+                          height="20"
+                          rx="5"
+                          ry="5"
+                        ></rect>
+                        <path
+                          d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"
+                        ></path>
+                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                      </svg>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="footer-nav-column">
+                <h3 class="footer-column-title section-subtitle">Company</h3>
+                <nav class="footer-nav-list">
+                  <a href="Homepage">
+                    <div class="footer-nav-link"><span>Home</span></div>
+                  </a>
+                  <a href="#">
+                    <div class="footer-nav-link">
+                      <span>About Our Legacy</span>
+                    </div>
+                  </a>
+                  <a href="#">
+                    <div class="footer-nav-link">
+                      <span>Palm Oil Solutions</span>
+                    </div>
+                  </a>
+                  <a href="#">
+                    <div class="footer-nav-link">
+                      <span>Global Logistics</span>
+                    </div>
+                  </a>
+                  <a href="#">
+                    <div class="footer-nav-link">
+                      <span>Sustainability</span>
+                    </div>
+                  </a>
+                  <a href="#">
+                    <div class="footer-nav-link"><span>Contact Us</span></div>
+                  </a>
+                </nav>
+              </div>
+              <div class="footer-contact-column">
+                <h3 class="footer-column-title section-subtitle">
+                  Global Headquarters
+                </h3>
+                <div class="footer-contact-info">
+                  <div class="footer-contact-item">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="18"
+                      height="18"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="var(--color-secondary)"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path
+                        d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"
+                      ></path>
+                      <circle cx="12" cy="10" r="3"></circle>
+                    </svg>
+                    <span class="section-content">
+                      Business Bay, Dubai, United Arab Emirates
+                    </span>
+                  </div>
+                  <div class="footer-contact-item">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="18"
+                      height="18"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="var(--color-secondary)"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path
+                        d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+                      ></path>
+                    </svg>
+                    <span class="section-content">+971 4 XXX XXXX</span>
+                  </div>
+                  <div class="footer-contact-item">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="18"
+                      height="18"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="var(--color-secondary)"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path
+                        d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                      ></path>
+                      <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                    <span class="section-content">trade@hennu.com</span>
+                  </div>
+                </div>
+                <div class="footer-newsletter">
+                  <p class="footer-newsletter-text section-content">
+                    Subscribe for trade insights
+                  </p>
+                  <form
+                    action="#"
+                    method="POST"
+                    data-form-id="083c2eea-a899-4567-8337-148ee1cfd7cd"
+                    class="footer-newsletter-form"
+                  >
+                    <input
+                      type="email"
+                      placeholder="Email Address"
+                      required="true"
+                      id="thq_textinput_IIqj"
+                      name="textinput"
+                      data-form-field-id="thq_textinput_IIqj"
+                      class="footer-input"
+                    />
+                    <button
+                      type="submit"
+                      aria-label="Subscribe"
+                      id="thq_button_lYhZ"
+                      name="button"
+                      data-form-field-id="thq_button_lYhZ"
+                      class="footer-submit-btn"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <line x1="22" y1="2" x2="11" y2="13"></line>
+                        <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                      </svg>
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="footer-bottom-bar">
+              <div class="footer-legal">
+                <span class="section-content">
+                  © 2026 Hennu Import &amp; Export. All Rights Reserved.
+                </span>
+              </div>
+              <div class="footer-legal-links">
+                <a href="#">
+                  <div class="footer-legal-link">
+                    <span>Privacy Policy</span>
+                  </div>
+                </a>
+                <a href="#">
+                  <div class="footer-legal-link">
+                    <span>Terms of Service</span>
+                  </div>
+                </a>
+                <a href="#">
+                  <div class="footer-legal-link">
+                    <span>Trade Compliance</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <div class="footer-container2">
+          <div class="footer-container3">
+            <script defer="" data-name="footer-interactivity">
+              document.addEventListener('DOMContentLoaded', function() {
+                (function(){
+                  const footerShapes = document.querySelectorAll(".footer-shape")
+
+                  window.addEventListener("mousemove", (e) => {
+                    const mouseX = e.clientX / window.innerWidth
+                    const mouseY = e.clientY / window.innerHeight
+
+                    footerShapes.forEach((shape, index) => {
+                      const depth = (index + 1) * 15
+                      const moveX = (mouseX - 0.5) * depth
+                      const moveY = (mouseY - 0.5) * depth
+                      shape.style.transform = `translate(${moveX}px, ${moveY}px)`
+                    })
+                  })
+
+                  const newsletterForm = document.querySelector(".footer-newsletter-form")
+                  if (newsletterForm) {
+                    newsletterForm.addEventListener("submit", (e) => {
+                      const emailInput = newsletterForm.querySelector(".footer-input")
+                      if (emailInput.checkValidity()) {
+                        const btn = newsletterForm.querySelector(".footer-submit-btn")
+                        const originalContent = btn.innerHTML
+
+                        btn.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>'
+                        btn.style.background = "#2ecc71"
+                        emailInput.value = ""
+                        emailInput.placeholder = "Thank you!"
+
+                        setTimeout(() => {
+                          btn.innerHTML = originalContent
+                          btn.style.background = ""
+                          emailInput.placeholder = "Email Address"
+                        }, 3000)
+                      }
+                    })
+                  }
+                })()
+              });
+            </script>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
