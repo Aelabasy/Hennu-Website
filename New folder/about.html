@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Hennu Palm Oil</title>
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/all.min.css">
+</head>
+<body>
+
+<!-- ================= HEADER (SAME AS INDEX) ================= -->
+<section class="header">
+    <nav>
+        <a href="index.html">
+            <img src="images/logo.png" alt="Hennu Logo">
+        </a>
+
+        <div class="nav-links" id="navLinks">
+            <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </div>
+
+        <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+    </nav>
+
+    <div class="text-box">
+        <h1>About Hennu</h1>
+        <p>
+            A trusted palm oil trading company delivering quality,
+            sustainability, and reliability across global markets.
+        </p>
+        <a href="contact.html" class="hero-btn">Contact Us</a>
+    </div>
+</section>
+
+<!-- ================= ABOUT US ================= -->
+<section class="about-us">
+    <div class="row">
+
+        <div class="about-col">
+            <h1>We Are Refined Palm Oil Traders</h1>
+
+            <p>
+                Hennu is inspired by an ancient pharaonic word meaning
+                “ships that deliver goods through the Nile.”
+                We carry that meaning forward by delivering premium
+                palm oil products across borders.
+            </p>
+
+            <p>
+                Our company focuses on refined palm oil trading,
+                ensuring consistent supply, international quality
+                compliance, and long-term partnerships with buyers
+                and suppliers worldwide.
+            </p>
+
+            <a href="contact.html" class="hero-btn red-btn">Explore Our Products</a>
+        </div>
+
+        <div class="about-col">
+            <img src="images/about-us-photo.png" alt="Palm Oil Trading">
+        </div>
+
+    </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<section class="footer">
+    <h4>About Hennu</h4>
+    <p>
+        Delivering high-quality palm oil products with trust,
+        transparency, and efficiency.
+    </p>
+
+    <div class="icons">
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+    </div>
+</section>
+
+<!-- ================= JS ================= -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showmenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hidemenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>

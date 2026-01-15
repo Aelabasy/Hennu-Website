@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Hennu Palm Oil</title>
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/all.min.css">
+</head>
+<body>
+
+<!-- ================= HEADER (Same as Index) ================= -->
+<section class="header">
+    <nav>
+        <a href="index.html">
+            <img src="images/logo.png" alt="Hennu Logo">
+        </a>
+
+        <div class="nav-links" id="navLinks">
+            <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </div>
+
+        <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+    </nav>
+
+    <div class="text-box">
+        <h1>Contact Us</h1>
+        <p>
+            Hennu Palm Oil – delivering quality, sustainable, and reliable palm oil across global markets.
+        </p>
+        <a href="contact.html" class="hero-btn">Get in Touch</a>
+    </div>
+</section>
+
+<!-- ================= LOCATION MAP ================= -->
+<section class="location">
+    <iframe width="100%" height="650px" frameborder="0" style="border:0"
+            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyB2NIWI3Tv9iDPrlnowr_0ZqZWoAQydKJU&q=Meydan%20Grandstand%20-%206th%20Floor%20Al%20Meydan%20Rd%20-%20Nad%20Al%20Sheba%20-%20Nadd%20Al%20Shiba%20First%20-%20Dubai%20-%20United%20Arab%20Emirates&maptype=roadmap"
+            allowfullscreen>
+    </iframe>
+</section>
+
+<!-- ================= CONTACT INFO ================= -->
+<section class="contact-us">
+    <div class="row">
+
+        <div class="contact-col">
+            <i class="fa-solid fa-location-dot"></i>
+            <span>
+                <h5>Meydan Grandstand</h5>
+                <p>Nadd Al Shiba First - Dubai - United Arab Emirates</p>
+            </span>
+        </div>
+
+        <div class="contact-col">
+            <i class="fa-solid fa-phone"></i>
+            <span>
+                <h5>+201001697309</h5>
+                <p>Monday to Saturday, 10AM to 6PM</p>
+            </span>
+        </div>
+        <div>
+            <i class="fa-solid fa-envelope"></i>
+            <span>
+                <h5>hennuco@gmail.com</h5>
+                <p>Email us your query</p>
+            </span>
+        </div>
+        <div class="contact-col">
+            <form action="https://formspree.io/f/mgooegqz" method="post">
+                <input type="text" name="name" placeholder="Enter your name" required>
+                <input type="email" name="email" placeholder="Enter your email" required>
+                <input type="text" name="message" placeholder="Enter your subject" required>
+<textarea cols="30" rows="10" placeholder="Enter your message"></textarea>
+
+<button type="submit" class="hero-btn red-btn">Send Message</button>
+            </form>
+
+    </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<section class="footer">
+    <h4>About Hennu</h4>
+    <p>
+        Delivering high-quality palm oil products with trust,
+        transparency, and efficiency.
+    </p>
+
+    <div class="icons">
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+    </div>
+</section>
+
+<!-- ================= JS ================= -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showmenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hidemenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>

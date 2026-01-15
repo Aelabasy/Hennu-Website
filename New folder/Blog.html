@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hennu Palm Oil - About Us</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/all.min.css">
+</head>
+<body>
+
+<!-- ================= HEADER / SUB-HEADER ================= -->
+<section class="sub-header">
+
+    <nav>
+        <a href="index.html">
+            <img src="images/logo.png" alt="Hennu Logo">
+        </a>
+
+        <div class="nav-links" id="navLinks">
+            <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </div>
+
+        <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+    </nav>
+
+    <h1>About Hennu</h1>
+
+</section>
+
+<!-- ================= ABOUT BLOG CONTENT ================= -->
+<section class="blog-content">
+
+    <div class="row">
+
+        <!-- Left Column: Story / Description -->
+        <div class="blog-left">
+            <img src="images/blog.png" alt="Hennu Palm Oil">
+
+            <h2>Our Story</h2>
+            <p>
+                Hennu is a professional palm oil trading company specializing in refined, crude, and palm kernel oil.
+                Our mission is to deliver high-quality products while supporting sustainable and ethical palm cultivation practices.
+            </p>
+
+            <p>
+                Founded on the banks of the Nile, Hennu bridges local producers with international markets, ensuring transparency,
+                quality, and timely delivery. From palm groves to warehouses, our seamless supply chain guarantees that each product
+                meets the highest standards.
+            </p>
+
+            <p>
+                Over the years, Hennu has expanded its operations to include state-of-the-art refining facilities, quality control laboratories,
+                and a network of reliable logistics partners. This expansion allows us to consistently meet the growing demand for palm oil products
+                across multiple industries, including food, cosmetics, and biofuel.
+            </p>
+
+            <p>
+                Our team is composed of experienced traders, quality assurance experts, and logistics specialists who work together
+                to provide exceptional service. We prioritize long-term partnerships and believe in building trust through reliability
+                and transparency.
+            </p>
+
+            <p>
+                Sustainability is at the heart of Hennu’s operations. We continuously invest in environmentally friendly practices,
+                such as reducing carbon emissions, minimizing waste, and promoting responsible farming techniques. Additionally,
+                Hennu actively supports local communities by providing training and employment opportunities, fostering social and economic growth.
+            </p>
+
+            <p>
+                As the global demand for sustainable palm oil rises, Hennu remains committed to leading the industry with integrity,
+                innovation, and a focus on quality. We believe that responsible business practices can coexist with profitability,
+                and our clients trust us to deliver products that meet both ethical and commercial standards.
+            </p>
+
+            <p>
+                At Hennu, every bottle of palm oil tells a story — a story of tradition, dedication, and a commitment to creating value
+                for our clients and communities alike.
+            </p>
+
+            <div class="comment-box">
+                <h3>Leave a Comment</h3>
+                <form action="" class="comment-form">
+                    <input type="text" placeholder="Enter Your Name" required>
+                    <input type="email" placeholder="Enter Your Email" required>
+                    <textarea placeholder="Enter Your Message" rows="5" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Post Comment</button>
+                </form>
+            </div>
+        </div>
+
+
+        <!-- Right Column: Categories -->
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+
+            <ul class="categories">
+                <li>Business Insights</li>
+                <li>Palm Oil Industry</li>
+                <li>Sustainability</li>
+                <li>Market Updates</li>
+                <li>Company News</li>
+            </ul>
+        </div>
+
+    </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<section class="footer">
+    <h4>About Hennu</h4>
+    <p>Hennu is committed to excellence in palm oil trading, quality assurance, and sustainable practices.</p>
+
+    <div class="icons">
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+    </div>
+</section>
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showmenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hidemenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
